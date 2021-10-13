@@ -32,5 +32,4 @@ yarn-error.log*
 
 # vercel
 .vercel
-pages/api
 eng.traineddata
