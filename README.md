@@ -12,7 +12,8 @@ You will need to be familiar with Javascript for this tutorial. Working knowledg
 
 [Cloudinary](https://cloudinary.com/?ap=em) is an amazing service that provides developers with a suite of APIs for storage, optimization and delivery of different types of media including images and videos. You can easily get started with a free developer account. Create a new account at [cloudinary](https://cloudinary.com/?ap=em) and log in. Head over to the [dashboard](https://cloudinary.com/console?ap=em) where you'll find your API keys and credentials.  Take note of the `Cloud name`, `API Key` and `API Secret` we'll use them later.
 
-![Cloudinary Dashboard](https://github.com/newtonmunene99/extract-text-from-images/blob/master/public/images/cloudinary-dashboard.png "Cloudinary Dashboard")
+![Cloudinary Dashboard](https://res.cloudinary.com/hackit-africa/image/upload/v1623006780/cloudinary-dashboard.png "Cloudinary Dashboard")
+
 
 ## Getting started
 
@@ -56,7 +57,7 @@ API_KEY=YOUR_API_KEY
 API_SECRET=YOUR_API_SECRET
 ```
 
-Remember to replace `YOUR_CLOUD_NAME` `YOUR_API_KEY` and `YOUR_API_SECRET` with the `Cloud name`, `API Key` and `API Secret` values that we got from the [Cloudinary Account and Credentials](#cloudinary-account-and-credentials) section.
+Remember to replace `YOUR_CLOUD_NAME` `YOUR_API_KEY` and `YOUR_API_SECRET` with the `Cloud name`, `API Key` and `API Secret` values that we got from the Cloudinary-account-and-credentials section.
 
 ### Cloudinary functions
 
@@ -1180,4 +1181,4 @@ npm run dev
 
 > DISCLAIMER: Please note that the Tesseract.js library won't always recognize text from all images so you might run into some errors with some specific images. There's all sorts of open issues on their [Github](https://github.com/naptha/tesseract.js/issues)
 
-You can find the full source code on my [Github](https://github.com/newtonmunene99/extract-text-from-images)
+You can find the full source code on my [Github](https://github.com/musebe/Extract-Text-From-Images)
